@@ -1,0 +1,26 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-cold-chain-pharma-mcp",
+    "description": "Pharmaceutical cold-chain + Good Distribution Practice compliance \u2014 MHRA WDA(H), EU/UK GDP 2013/C",
+    "version": "1.0.0",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-cold-chain-pharma-mcp"
+      }
+    ],
+    "capabilities": [
+      "check_gdp_compliance",
+      "check_qualified_person_responsible",
+      "check_temperature_excursion",
+      "check_who_pq_compliance",
+      "check_serialisation_falsified_medicines",
+      "prepare_mhra_audit_pack",
+      "check_dangerous_goods_pharma",
+      "validate_temperature_mapping_qualification"
+    ]
+  }
+}

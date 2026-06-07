@@ -1,0 +1,37 @@
+{
+  "name": "meok-cold-chain-pharma-mcp",
+  "title": "Meok Cold Chain Pharma Mcp",
+  "description": "Pharmaceutical cold-chain + Good Distribution Practice compliance \u2014 MHRA WDA(H), EU/UK GDP 2013/C 343/01, WHO PQ, EU+UK FMD divergence, 2-8\u00b0C excursion detection, dry-ice DG, controlled-drugs, temperature-mapping qualification. For UK pharma wholesalers + 3PL + clinical-trial supply. By MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "check_gdp_compliance"
+    },
+    {
+      "name": "check_qualified_person_responsible"
+    },
+    {
+      "name": "check_temperature_excursion"
+    },
+    {
+      "name": "check_who_pq_compliance"
+    },
+    {
+      "name": "check_serialisation_falsified_medicines"
+    },
+    {
+      "name": "prepare_mhra_audit_pack"
+    },
+    {
+      "name": "check_dangerous_goods_pharma"
+    },
+    {
+      "name": "validate_temperature_mapping_qualification"
+    }
+  ]
+}

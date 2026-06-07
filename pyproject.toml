@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meok-cold-chain-pharma-mcp"
+version = "1.0.0"
+description = "Pharmaceutical cold-chain + Good Distribution Practice compliance — MHRA WDA(H), EU/UK GDP 2013/C 343/01, WHO PQ, EU+UK FMD divergence, 2-8°C excursion detection, dry-ice DG, controlled-drugs, temperature-mapping qualification. For UK pharma wholesalers + 3PL + clinical-trial supply. By MEOK AI Labs."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Nicholas Templeman", email = "nicholas@meok.ai" }]
+keywords = ["mcp", "gdp", "good-distribution-practice", "cold-chain", "pharma", "mhra", "wda", "wda-h", "who-pq", "fmd", "falsified-medicines", "temperature-mapping", "biologics", "2-8c", "ultra-cold", "meok"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Office/Business :: Financial",
+  "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+dependencies = ["mcp[cli]>=1.3.0"]
+
+[project.urls]
+Homepage = "https://haulage.app"
+Repository = "https://github.com/CSOAI-ORG/meok-cold-chain-pharma-mcp"
+
+[project.scripts]
+meok-cold-chain-pharma-mcp = "server:main"
+
+[tool.setuptools]
+py-modules = ["server"]

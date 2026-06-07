@@ -1,0 +1,95 @@
+{
+  "name": "meok-cold-chain-pharma-mcp",
+  "description": "Pharmaceutical cold-chain + Good Distribution Practice compliance \u2014 MHRA WDA(H), EU/UK GDP 2013/C",
+  "url": "https://proofof.ai/scorecard/meok-cold-chain-pharma-mcp.html",
+  "version": "1.0.0",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "check_gdp_compliance",
+      "name": "Check Gdp Compliance",
+      "description": "check_gdp_compliance via meok-cold-chain-pharma-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_qualified_person_responsible",
+      "name": "Check Qualified Person Responsible",
+      "description": "check_qualified_person_responsible via meok-cold-chain-pharma-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_temperature_excursion",
+      "name": "Check Temperature Excursion",
+      "description": "check_temperature_excursion via meok-cold-chain-pharma-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_who_pq_compliance",
+      "name": "Check Who Pq Compliance",
+      "description": "check_who_pq_compliance via meok-cold-chain-pharma-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_serialisation_falsified_medicines",
+      "name": "Check Serialisation Falsified Medicines",
+      "description": "check_serialisation_falsified_medicines via meok-cold-chain-pharma-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "prepare_mhra_audit_pack",
+      "name": "Prepare Mhra Audit Pack",
+      "description": "prepare_mhra_audit_pack via meok-cold-chain-pharma-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_dangerous_goods_pharma",
+      "name": "Check Dangerous Goods Pharma",
+      "description": "check_dangerous_goods_pharma via meok-cold-chain-pharma-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "validate_temperature_mapping_qualification",
+      "name": "Validate Temperature Mapping Qualification",
+      "description": "validate_temperature_mapping_qualification via meok-cold-chain-pharma-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

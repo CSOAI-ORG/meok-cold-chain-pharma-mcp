@@ -1,0 +1,34 @@
+name: meok-cold-chain-pharma-mcp
+description: 'Pharmaceutical cold-chain + Good Distribution Practice compliance — MHRA WDA(H), EU/UK GDP 2013/C'
+version: 1.0.0
+author: MEOK AI Labs
+homepage: https://proofof.ai
+repository: https://github.com/CSOAI-ORG/meok-cold-chain-pharma-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: check_gdp_compliance
+  description: check gdp compliance
+- name: check_qualified_person_responsible
+  description: check qualified person responsible
+- name: check_temperature_excursion
+  description: check temperature excursion
+- name: check_who_pq_compliance
+  description: check who pq compliance
+- name: check_serialisation_falsified_medicines
+  description: check serialisation falsified medicines
+- name: prepare_mhra_audit_pack
+  description: prepare mhra audit pack
+- name: check_dangerous_goods_pharma
+  description: check dangerous goods pharma
+- name: validate_temperature_mapping_qualification
+  description: validate temperature mapping qualification
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

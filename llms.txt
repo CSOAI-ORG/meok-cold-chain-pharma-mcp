@@ -1,0 +1,24 @@
+# meok-cold-chain-pharma-mcp
+
+> Pharmaceutical cold-chain + Good Distribution Practice compliance — MHRA WDA(H), EU/UK GDP 2013/C 343/01, WHO PQ, EU+UK FMD divergence, 2-8°C excursion detection, dry-ice DG, controlled-drugs, temperature-mapping qualification. For UK pharma wholesalers + 3PL + clinical-trial supply. By MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- check_gdp_compliance
+- check_qualified_person_responsible
+- check_temperature_excursion
+- check_who_pq_compliance
+- check_serialisation_falsified_medicines
+- prepare_mhra_audit_pack
+- check_dangerous_goods_pharma
+- validate_temperature_mapping_qualification
+
+## Install
+```
+pip install meok-cold-chain-pharma-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/meok-cold-chain-pharma-mcp/
+- Docs: https://meok.ai
