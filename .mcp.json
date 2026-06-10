@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-cold-chain-pharma-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-cold-chain-pharma-mcp"
+      ]
+    }
+  }
+}
