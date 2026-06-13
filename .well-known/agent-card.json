@@ -1,0 +1,160 @@
+{
+  "name": "Meok Cold Chain Pharma Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/meok-cold-chain-pharma-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "Pharmaceutical cold-chain + Good Distribution Practice compliance — MHRA WDA(H), EU/UK GDP 2013/C 343/01, WHO PQ, EU+UK FMD divergence, 2-8°C excursion detection, dry-ice DG, controlled-drugs, temperature-mapping qualification. For UK pharma wholesalers + 3PL + clinical-trial supply. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "check_gdp_compliance",
+      "name": "Check Gdp Compliance",
+      "description": "Check Gdp Compliance — a tool of the meok-cold-chain-pharma-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_qualified_person_responsible",
+      "name": "Check Qualified Person Responsible",
+      "description": "Check Qualified Person Responsible — a tool of the meok-cold-chain-pharma-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_temperature_excursion",
+      "name": "Check Temperature Excursion",
+      "description": "Check Temperature Excursion — a tool of the meok-cold-chain-pharma-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_who_pq_compliance",
+      "name": "Check Who Pq Compliance",
+      "description": "Check Who Pq Compliance — a tool of the meok-cold-chain-pharma-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_serialisation_falsified_medicines",
+      "name": "Check Serialisation Falsified Medicines",
+      "description": "Check Serialisation Falsified Medicines — a tool of the meok-cold-chain-pharma-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "prepare_mhra_audit_pack",
+      "name": "Prepare Mhra Audit Pack",
+      "description": "Prepare Mhra Audit Pack — a tool of the meok-cold-chain-pharma-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_dangerous_goods_pharma",
+      "name": "Check Dangerous Goods Pharma",
+      "description": "Check Dangerous Goods Pharma — a tool of the meok-cold-chain-pharma-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "validate_temperature_mapping_qualification",
+      "name": "Validate Temperature Mapping Qualification",
+      "description": "Validate Temperature Mapping Qualification — a tool of the meok-cold-chain-pharma-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-cold-chain-pharma-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
