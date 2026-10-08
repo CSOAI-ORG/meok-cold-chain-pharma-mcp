@@ -18,7 +18,7 @@ classifiers = [
   "Topic :: Office/Business :: Financial",
   "Topic :: Scientific/Engineering :: Medical Science Apps.",
 ]
-dependencies = ["mcp[cli]>=1.3.0"]
+dependencies = ["mcp[cli]>=2.0.0"]
 
 [project.urls]
 Homepage = "https://haulage.app"
@@ -28,7 +28,7 @@ Repository = "https://github.com/CSOAI-ORG/meok-cold-chain-pharma-mcp"
 meok-cold-chain-pharma-mcp = "server:main"
 
 [tool.setuptools]
-py-modules = ["server"]
+py-modules = ["server", "mcp2026_shim"]
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
