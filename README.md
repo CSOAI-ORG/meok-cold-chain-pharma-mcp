@@ -53,16 +53,11 @@ pip install meok-cold-chain-pharma-mcp
 | `check_dangerous_goods_pharma` | DGSA pharma overlap — dry ice ADR Class 9 + controlled drugs. |
 | `validate_temperature_mapping_qualification` | WHO TRS 961 + EU GDP §3.2.1 mapping qualification check. |
 
-## Pricing
+## How MEOK charges
 
-- **Free** — MIT self-host
-- **Starter** — £199/mo (signed attestations + email support)
-- **Pro** — £499/mo (multi-site RP dashboard + temperature excursion alerts)
-- **Fleet** — £2,999/mo (50+ sites, custom integrations, MHRA-grade audit export, SLA)
+MEOK has no subscriptions and no tiers. You pay per job, and only when the agreed artifact has been delivered to you. There is no public price list. See <https://meok.ai/pricing>.
 
-Pharma is the highest-margin compliance vertical we serve — a single avoided cold-chain breach on a biologic consignment pays for the platform many times over.
-
-[Subscribe Pro → £499/mo](https://www.csoai.org/checkout) · [Talk to Nick](mailto:nicholas@meok.ai)
+This repository's source is MIT-licensed and free to self-host.
 
 ## Regulatory basis
 
